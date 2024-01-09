@@ -1,0 +1,26 @@
+<annotation>
+	<folder>play</folder>
+	<filename>play.bcf2c64e-a06b-11ee-8ce2-00155d9a8f2b.jpg</filename>
+	<path>C:\Users\joaqu\jupyter\TensorFlowObjectDetection\TFODCourse\Tensorflow\workspace\images\collectedimages\play\play.bcf2c64e-a06b-11ee-8ce2-00155d9a8f2b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Play</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>244</ymin>
+			<xmax>306</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+</annotation>

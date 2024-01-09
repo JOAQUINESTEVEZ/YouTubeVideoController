@@ -1,0 +1,16 @@
+item { 
+	name:'Play'
+	id:1
+}
+item { 
+	name:'Stop'
+	id:2
+}
+item { 
+	name:'Up'
+	id:3
+}
+item { 
+	name:'Down'
+	id:4
+}

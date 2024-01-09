@@ -1,0 +1,43 @@
+# YouTube Controller with Hand Signs Detection
+
+![YouTube Controller](<image_path>/project_image.jpg)
+
+## Overview
+
+This project enables you to control YouTube playback using hand signs detected by a machine learning model. By recognizing specific hand gestures, the model triggers actions such as play, pause, volume increase, and volume decrease.
+
+## Hand Signs
+
+- **Play:** ![Play Sign]("C:\Users\joaqu\jupyter\TensorFlowObjectDetection\TFODCourse\demo_signs\play.jpg")
+- **Pause:** ![Pause Sign]("C:\Users\joaqu\jupyter\TensorFlowObjectDetection\TFODCourse\demo_signs\pause.jpg")
+- **Volume Up:** ![Volume Up Sign]("C:\Users\joaqu\jupyter\TensorFlowObjectDetection\TFODCourse\demo_signs\up.jpg")
+- **Volume Down:** ![Volume Down Sign]("C:\Users\joaqu\jupyter\TensorFlowObjectDetection\TFODCourse\demo_signs\down.jpg")
+
+## DEMO Video
+![DEMO Video](https://www.youtube.com/watch?v=cby-C9cJ6YI&t=2s&ab_channel=joaquinestevez)
+
+## Usage
+
+1. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+2. Run the cells in Section 11. YouTube Controller:
+
+    The last cell will open a YouTube window and activate the hand signs detection model.
+
+3. Perform hand signs in front of your camera to control YouTube playback:
+
+    Play: Show the "Play" hand sign.
+    Pause: Show the "Pause" hand sign.
+    Volume Up: Display the "Volume Up" hand sign.
+    Volume Down: Present the "Volume Down" hand sign
+
+4. Enjoy hands-free YouTube control!
+
+5. Press 'q' when you want to finish the program
+
+## Important Notes
+1. Make sure your camera is properly connected, and the environment has adequate lighting for accurate hand sign detection.
+2. In case you are having issues with the camera, try changing "cap = cv2.VideoCapture(0)" by "cap = cv2.VideoCapture(1)" in the last cell of Section 11. If the issue continues, try with 2, 3, or 4.
