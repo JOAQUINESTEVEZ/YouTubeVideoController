@@ -41,13 +41,8 @@ This project enables you to control YouTube playback using hand signs detected b
 
     - If you get the ERROR "No Module named 'object_detection' when you import it, Restart your Kernel and run Section 10.1 Set up Paths again:
         ```python
-<<<<<<< HEAD
         # If ERROR: "No module named "object_dections"" - IMPORTANT
         # Solution: Restart your Kernel and run again the 4 cells of Section 10.1
-=======
-        # If ERROR: "No module named "object_detection"" - IMPORTANT
-        # Solution: Restart your Kernel and run again the first 3 cells of Section 10.1
->>>>>>> daff79633461934986949024d618f665dec7c108
         ```
         ```python
         import object_detection
