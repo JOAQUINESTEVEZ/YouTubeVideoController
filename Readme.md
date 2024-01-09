@@ -1,6 +1,6 @@
 # YouTube Controller with Hand Signs Detection
 
-![YouTube Controller](<image_path>/project_image.jpg)
+
 
 ## Overview
 
@@ -8,13 +8,21 @@ This project enables you to control YouTube playback using hand signs detected b
 
 ## Hand Signs
 
-- **Play:** ![Play Sign]("C:\Users\joaqu\jupyter\YouTubeVideoController\ytcontroller\demo_signs\play.png")
-- **Pause:** ![Pause Sign]("C:\Users\joaqu\jupyter\YouTubeVideoController\ytcontroller\demo_signs\pause.png")
-- **Volume Up:** ![Volume Up Sign]("C:\Users\joaqu\jupyter\YouTubeVideoController\ytcontroller\demo_signs\up.png")
-- **Volume Down:** ![Volume Down Sign]("C:\Users\joaqu\jupyter\YouTubeVideoController\ytcontroller\demo_signs\down.png")
+- ## Play:
+   ![play](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/1d650a90-2389-44b1-acba-b05d2a96450d)
+
+- ## Pause:
+   ![pause](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/16ab789e-4299-4be1-b406-babfb7e93ed8)
+
+- ## Volume Up:
+   ![up](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/14c9912e-0710-4b12-ab49-2f0cd8dc6f46)
+
+- ## Volume Down:
+   ![down](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/d3df529e-5001-4383-8e8a-5d2ca8d9ac23)
+
 
 ## DEMO Video
-![DEMO Video](https://www.youtube.com/watch?v=cby-C9cJ6YI&t=2s&ab_channel=joaquinestevez)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cby-C9cJ6YI/0.jpg)](https://www.youtube.com/watch?v=cby-C9cJ6YI)
 
 ## Usage
 1. Go to the "Model_creation.ipynb" file and to Section "10. YouTube Controller"
@@ -33,11 +41,16 @@ This project enables you to control YouTube playback using hand signs detected b
 
     - If you get the ERROR "No Module named 'object_detection' when you import it, Restart your Kernel and run Section 10.1 Set up Paths again:
         ```python
+<<<<<<< HEAD
         # If ERROR: "No module named "object_dections"" - IMPORTANT
         # Solution: Restart your Kernel and run again the 4 cells of Section 10.1
+=======
+        # If ERROR: "No module named "object_detection"" - IMPORTANT
+        # Solution: Restart your Kernel and run again the first 3 cells of Section 10.1
+>>>>>>> daff79633461934986949024d618f665dec7c108
         ```
         ```python
-        import object_dections
+        import object_detection
         ```
 
 4. Run every cell of Section 10.3 Load and Run Program:
