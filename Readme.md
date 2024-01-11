@@ -1,6 +1,6 @@
 # YouTube Controller with Hand Signs Detection
 
-
+// Author: Joaquin Estevez Year: 2023
 
 ## Overview
 
