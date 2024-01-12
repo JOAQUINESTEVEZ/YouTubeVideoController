@@ -1,12 +1,12 @@
 # YouTube Controller with Hand Signs Detection
 
-// Author: Joaquin Estevez Year: 2023
+// 👨‍💻Author: Joaquin Estevez Year: 2023
 
-## Overview
+## 🌐Overview
 
 This project enables you to control YouTube playback using hand signs detected by a machine learning model. By recognizing specific hand gestures, the model triggers actions such as play, pause, volume increase, and volume decrease.
 
-## Hand Signs
+## 👋Hand Signs
 
 - ## Play:
    ![play](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/1d650a90-2389-44b1-acba-b05d2a96450d)
@@ -21,10 +21,10 @@ This project enables you to control YouTube playback using hand signs detected b
    ![down](https://github.com/JOAQUINESTEVEZ/YouTubeVideoController/assets/105304562/d3df529e-5001-4383-8e8a-5d2ca8d9ac23)
 
 
-## DEMO Video
+## 🎥DEMO Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cby-C9cJ6YI/0.jpg)](https://www.youtube.com/watch?v=cby-C9cJ6YI)
 
-## Usage
+## 🔧Usage
 1. Go to the "Model_creation.ipynb" file and to Section "10. YouTube Controller"
 
 2. Run every cell of Section "10.1 Set up Pahts"
@@ -53,7 +53,7 @@ This project enables you to control YouTube playback using hand signs detected b
     - The last cell will open a YouTube window and activate the hand signs detection model.
     - You will need a webcam connected to your computer for this step.
 
-## Important Notes:
+## 📌Important Notes:
 
     1. Make sure your camera is properly connected, and the environment has adequate lighting for accurate hand     signdetection.
     2. In case you are having issues with the camera, try changing "cap = cv2.VideoCapture(0)" by "cap = cv2.VideoCaptur(1)" in the last cell of Section 11. If the issue continues, try with 2, 3, or 4:
@@ -71,4 +71,4 @@ This project enables you to control YouTube playback using hand signs detected b
 
 4. Enjoy hands-free YouTube control!
 
-5. Press 'q' when you want to finish the program
+5. 🚪Press 'q' when you want to finish the program
